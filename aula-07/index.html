@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" defer></script>
+    <style>
+        .row {
+            height: 200px;
+            background-color: aliceblue;
+        }
+
+        .col-3 {
+            background-color: antiquewhite;
+            padding: 20px;
+            border: solid 1px black;
+        }
+    </style>
+    <title>Formatação de Colunas</title>
+
+</head>
+
+<body>
+    <!-- div.container>div.row>div.col-3{Coluna $}*3 -->
+    <!-- ALINHA TODAS DIV DE UMA VEZ E IGUALMENTE -->
+    <!-- <div class="container">
+        <div class="row align-items-center">
+            <div class="col-3">Coluna 1</div>
+            <div class="col-3">Coluna 2</div>
+            <div class="col-3">Coluna 3</div>
+        </div>
+    </div> -->
+
+    <!-- ALINHAMENTO INDIVIDUAL -->
+    <!-- <div class="container">
+        <div class="row">
+            <div class="col-3 align-self-start">Coluna 1</div>
+            <div class="col-3 align-self-center">Coluna 2</div>
+            <div class="col-3 align-self-end">Coluna 3</div>
+        </div>
+    </div> -->
+
+    <!-- ALINHAMENTO BASEADO NA LARGURA DA TELA -->
+    <!-- <div class="container">
+        <div class="row align-items-xxl-center">
+            <div class="col-3">Coluna 1</div>
+            <div class="col-3">Coluna 2</div>
+            <div class="col-3">Coluna 3</div>
+        </div>
+    </div> -->
+
+
+    <!-- ALINHAMENTO HORIZONTAL -->
+    <!-- <div class="container">
+        <div class="row justify-content-evenly">
+            <div class="col-3">Coluna 1</div>
+            <div class="col-3">Coluna 2</div>
+            <div class="col-3">Coluna 3</div>
+        </div>
+    </div> -->
+
+    <!-- FORÇANDO QUEBRA DE LINHA -->
+    <!-- <div class="container">
+        <div class="row justify-content-evenly">
+            <div class="col-3">Coluna 1</div>
+            <div class="w-100"></div>
+            <div class="col-3">Coluna 2</div>
+            <div class="col-3">Coluna 3</div>
+        </div>
+    </div> -->
+
+    <!-- REORDENANDO LINHAS
+    <div class="container">
+        <div class="row justify-content-evenly">
+            <div class="col-3 order-last">Coluna 1</div>
+            <div class="col-3 order-first">Coluna 2</div>
+            <div class="col-3 order-1">Coluna 3</div>
+        </div>
+    </div> -->
+
+    <!-- DESLOCAMENTO DE COLUNAS
+    <div class="container">
+        <div class="row">
+            <div class="col-3 offset-1">div 1</div>
+            <div class="col-3 offset-2">div 2</div>
+            <div class="col-3">div 3</div>
+        </div>
+    </div> -->
+
+    <!-- DESLOCAMENTO DE COLUNAS PARA QUE FIQUEM IGUAIS
+    <div class="container">
+        <div class="row">
+            <div class="col-3 ms-auto">div 1</div>
+            <div class="col-3 ms-auto">div 2</div>
+        </div>
+    </div>
+
+    DESLOCAMENTO DE COLUNAS MARGEM HORIZONTAL CENTRALIZADA, CENTRALIZA DIV, PODE USAR JUNTO DO EXEMPLO ACIMA
+    <div class="container">
+        <div class="row">
+            <div class="col-3 mx-auto">div 1</div>
+        </div>
+    </div> -->
+
+    <!-- RECURSO UTIL PARA DIMENSIONAR DIVS, NAO COLOCALAS EM CLASS ROW -->
+    <div class="container">
+
+        <div class="col-3">div 1</div>
+        <div class="col-3">div 2</div>
+
+    </div>
+</body>
+
+</html>
