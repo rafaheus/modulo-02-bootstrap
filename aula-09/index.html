@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" defer></script>
+    <title>Imagens e Figuras</title>
+</head>
+
+<body>
+
+    <h1>Imagens e Figuras</h1>
+
+    <!-- div.container>img.img-fluid[src="Jinx.jpeg"] -->
+    FLUID
+    <div class="container">
+        <img src="Jinx.jpeg" alt="Imagem Responsiva" class="img-fluid">
+    </div>
+
+    <hr>
+
+    THUMBNAIL
+    <div class="container">
+        <img src="Jinx.jpeg" alt="Imagem Responsiva" class="img-thumbnail">
+    </div>
+
+    <hr>
+    FLUID+THUMBNAIL
+    <div class="container">
+        <img src="Jinx.jpeg" alt="Imagem Responsiva" class="img-fluid img-thumbnail">
+    </div>
+
+    <hr>
+    FLUID ROUNDED
+    <div class="container">
+        <img src="Jinx.jpeg" alt="Imagem Responsiva" class="img-fluid rounded">
+    </div>
+
+    <hr>
+
+    IMAGEM FLUTUANTE COM TEXTO
+    <div class="container">
+        <!-- img.img-thumbnail.float-end[scr="img.jpg"]+p.lead -->
+        <img src="img.jpg" alt="" class="rounded float-end ms-3" height="150vh">
+        <p class="lead text-end">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum maiores maxime
+            incidunt dolores
+            aliquid reiciendis assumenda at esse nulla dignissimos, itaque distinctio fugiat numquam, quis perferendis
+            odio vero atque quas ex, ullam magni. Obcaecati odit iste vero itaque omnis numquam in deserunt illo
+            eligendi. Excepturi voluptas, ullam quibusdam, enim vero cum ducimus dolore ab quo, temporibus qui! Nesciunt
+            quae repudiandae quis dicta officiis corporis necessitatibus, animi illo molestias molestiae maiores, aut
+            culpa, deserunt ex soluta aliquid voluptas a. Magnam, earum!</p>
+    </div>
+
+    <hr>
+
+    IMAGEM CENTRALIZADA
+    <div class="container text-center">
+
+        <img src="img.jpg" alt="" class="rounded">
+
+    </div>
+
+    <hr>
+
+    IMAGEM COM LEGENDA
+    <div class="container text-center">
+
+        <img src="img.jpg" alt="" class="rounded">
+
+    </div>
+
+    <hr>
+
+    IMAGEM COM LEGENDA
+    <div class="container text-center">
+
+        <!-- figure.figure>img.img-fluid.rounded[src="img.jpg"] + figcaption.figcaption.text-center{Legenda da Figura} -->
+        <figure class="figure">
+            <img src="img.jpg" alt="Uma mão segurando um celular tirando uma foto na horizontal"
+                class="img-fluid rounded" height="150vh">
+            <figcaption class="figcaption text-center">Legenda da Figura</figcaption>
+        </figure>
+
+    </div>
+</body>
+
+</html>
