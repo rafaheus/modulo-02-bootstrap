@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <title>Configurações de Visibilidade</title>
+    <style>
+        div.border {
+            height: 150px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="p-5 bg-danger"></div>
+    <div class="p-4 col-3 d-none d-lg-block m-3 bg-primary"></div>
+    <div class="p-4 col-3 d-block d-lg-none m-3 bg-success"></div>
+    <div class="p-4 col-3 d-block m-3 bg-warning"></div>
+    <hr>
+
+    <header class="p-3 text-bg-dark d-print-none">
+        <div class="container">
+            <h1 class="display-1">Cabeçalho</h1>
+        </div>
+    </header>
+    <article class="container my-3">
+        <h1 class="mb-4">Título do Artigo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus illo quaerat nostrum nam porro. Eveniet,
+            quis reiciendis! Itaque eius aliquid in maiores accusamus quasi quo eaque, vel labore nostrum provident.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, corrupti, nisi saepe labore obcaecati maiores
+            voluptas esse aspernatur ab quos neque ad distinctio odio atque magnam! Libero vero repellendus earum!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex aliquid quas minus a nihil dicta tempore
+            temporibus perspiciatis amet exercitationem, pariatur, reiciendis minima sint deserunt illo obcaecati iure
+            totam eos?</p>
+        <p class="d-none d-print-block">Fonte: meusite.com.br</p>
+    </article>
+
+    <hr>
+
+    <div class="p-4 col-3 m-3 bg-primary d-none"></div>
+    <div class="p-4 col-3 m-3 bg-success invisible"></div>
+    <div class="p-4 col-3 m-3 bg-warning"></div>
+
+    <hr>
+
+    <div class="container bg-info mt-3">
+        <div class="row">
+            <div class="border p-2 col-3 overflow-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellat sequi
+                placeat quo similique, voluptatum praesentium rem, possimus cumque cum, itaque inventore. Non minus
+                ipsum perferendis dolorum delectus quidem veniam quia.
+            </div>
+            <div class="border p-2 col-3 overflow-hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Aliquam, vel
+                repellendus debitis sed exercitationem atque officia molestias, nisi alias praesentium autem ex minima.
+                Natus exercitationem architecto illum commodi ipsam repellendus.
+            </div>
+            <div class="border p-2 col-3 overflow-visible">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+                magnam obcaecati
+                rerum nisi ex. Totam similique itaque sunt impedit quis asperiores. Sunt, velit hic. Nobis hic vel
+                quibusdam ex explicabo!</div>
+            <div class="border p-2 col-3 overflow-scroll">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Ducimus corporis
+                eveniet nobis consequuntur vel quis, provident similique placeat consectetur inventore possimus
+                veritatis fugit ab eligendi veniam quae totam molestiae optio.</div>
+        </div>
+    </div>
+</body>
+
+</html>
