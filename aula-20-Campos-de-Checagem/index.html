@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <title>Formulários</title>
+
+</head>
+
+<body>
+    <div class="container p-5">
+        <!-- div.mb-3>input:checkbox#novo+label[for="novo"]{Produto Novo} -->
+        <div class="mb-3 form-check form-check-reverse">
+            <input type="checkbox" class="form-check-input" name="" id="novo">
+            <label for="novo" class="form-check-label">Produto Novo</label>
+        </div>
+        <hr>
+        <div class="mb-3 form-check form-check-inline">
+            <input type="radio" class="form-check-input" name="estado" id="novo" value="n">
+            <label for="novo" class="form-check-label">Produto Novo</label>
+        </div>
+        <div class="mb-3 form-check form-check-inline">
+            <input type="radio" class="form-check-input" name="estado" id="novo" value="u">
+            <label for="novo" class="form-check-label">Produto Usado</label>
+        </div>
+        <hr>
+        <div class="mb-3 form-switch">
+            <input type="radio" class="form-check-input" name="estado" id="novo" value="u">
+            <label for="novo" class="form-check-label">Produto Usado</label>
+        </div>
+        <hr>
+        <div class="mb-3">
+            <input type="checkbox" name="tipoEntrega" id="enregarapida" class="btn-check">
+            <label for="enregarapida" class="btn btn-primary">Entrega Rápida</label>
+        </div>
+        <div class="mb-3">
+            <input type="checkbox" name="tipoEntrega" id="enregalenta" class="btn-check">
+            <label for="enregalenta" class="btn btn-primary">Entrega Lenta</label>
+        </div>
+    </div>
+
+</body>
+
+</html>
